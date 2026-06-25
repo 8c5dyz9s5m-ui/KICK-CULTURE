@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kick Culture</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+header h1 {
+    color: gold;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 18px;
+    margin: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    border-color: gold;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: gold;
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* BUTTONS */
+.whatsapp {
+    background: green;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #222;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kick Culture</h1>
+    <p>Step Into The Culture 👟</p>
+</header>
+
+<div class="hero">
+    <h2>Premium Sneakers South Africa</h2>
+    <a class="btn" href="#shop">Shop Now</a>
+    <a class="btn" href="https://wa.me/27762644830">WhatsApp Order</a>
+</div>
+
+<h2 style="text-align:center;">All Sneakers</h2>
+
+<div class="products" id="shop">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Nike Shox">
+        <h3>NIKE SHOX</h3>
+        <p class="price">R1600</p>
+        <a class="whatsapp" href="https://wa.me/27762644830?text=I%20want%20Nike%20Shox">Buy on WhatsApp</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Nike TN">
+        <h3>NIKE TN</h3>
+        <p class="price">R1550</p>
+        <a class="whatsapp" href="https://wa.me/27762644830?text=I%20want%20Nike%20TN">Buy on WhatsApp</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Nike P6000">
+        <h3>NIKE P6000</h3>
+        <p class="price">R1600</p>
+        <a class="whatsapp" href="https://wa.me/27762644830?text=I%20want%20Nike%20P6000">Buy on WhatsApp</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Nike Dunk">
+        <h3>NIKE DUNK</h3>
+        <p class="price">R1450</p>
+        <a class="whatsapp" href="https://wa.me/27762644830?text=I%20want%20Nike%20Dunks">Buy on WhatsApp</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Air Max 90">
+        <h3>AIRMAX 90</h3>
+        <p class="price">R1400</p>
+        <a class="whatsapp" href="https://wa.me/27762644830?text=I%20want%20AirMax%2090">Buy on WhatsApp</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Air Jordan 4">
+        <h3>AIR JORDAN 4</h3>
+        <p class="price">R1500</p>
+        <a class="whatsapp" href="https://wa.me/27762644830?text=I%20want%20Air%20Jordan%204">Buy on WhatsApp</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>Kick Culture © 2026 | Nationwide Delivery South Africa</p>
+</footer>
+
+</body>
+</html>
